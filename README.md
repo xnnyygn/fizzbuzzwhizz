@@ -8,10 +8,15 @@ a simple solution written in scala
 * if n % 5 and n % 7, say BuzzWhizz and so on
 * if n has 3 in digits, just say Fizz
 
+## requirement
+
+ 1. [Scala](http://www.scala-lang.org/)
+ 2. [SBT](http://www.scala-sbt.org/)
+
+
 ## how to run
 
-	$ sbt
-	> run 3,5,7
+	$ sbt 'run 3,5,7'
 	
 or
 
